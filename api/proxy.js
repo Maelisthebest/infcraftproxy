@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         "Accept": "*/*",
         "Accept-Language": "de,en-US;q=0.7,en;q=0.3",
         "Referer": "https://neal.fun/infinite-craft/",
-        "Cookie": "cf_clearance=DEIN_AKTUELLER_COOKIE_HIER_EINTRAGEN",
+        "Cookie": "cf_clearance=MeuKZ2mkBQHcCdpkDlArbWNIcksD8kbeg1pRznbXrQE-1791546453-1.2.1.1-ldEvtWy6omJyewKWIynPhb.xBatQS_XMf06PnwLXW87yTPy7NLqj3MwdX.YYqvo3kR2jpdwmxwd_zWflVUGQHKR1tNWcP5Yr.Y8kuEN7LdKiAtgDfWJoxxzX6wwjIm9QZzZEMk__2pTREYRSdj9MiLaqTyvM2vPtI7llMjANGioSiv8SKwk.pi2LP.QicxmdULUWgHruIRuU0iw882N_xn7_OfLldDV33mM0XZocyVfNJZuIyT79aC_6hCfAPNIf8t2rCmG4K3R817j0PtvMspuBVdii.CglHlrXbL0qkcyWIwy_IgNDNX_3nW3gkXKr9txRrOgcJaCLWx5dXu.qkcrKt9u30qWoiALhPd_As7EvwBV5GekJ8R.bRN9ke_KETHjAVrrkkY_6iAuLlgL5HYfurVOElUeBUdkc_n5.mh446AJIGB.hJSN8E2B0pcLXYUUvAfW.a7I3pMxz.L1TnYsBtWhJwTbGQPJCqkD3E5VN0naxNDWofgL0Galdrq.Yrz8WMO2ZMweKOOp7RM.T3A",
         "x-craft-session": "901a4d60-dfa6-4625-8a46-f6c0eabe9e65"
       },
     });
