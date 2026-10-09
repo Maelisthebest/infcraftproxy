@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         "Accept": "*/*",
         "Accept-Language": "de,en-US;q=0.7,en;q=0.3",
         "Referer": "https://neal.fun/infinite-craft/",
-        "Cookie": "cf_clearance=2KaVo_FPsrgcjJvOk3C_duW24o76u_YEQtBJU6VJ.7U-1791548626-1.2.1.1-Pjn5Bc0Urs.Hr.FKXNIk7lL11XVskh9fsmsmIQ7dJnQiFmZHB3UXtsFfbUE8yge6pidGNO0ILVPMfBx8.UrQ2kl9k0bddzHXSla_6se.jLONtmlqyPzmNZvDCk1N9DGTxUr6Yswo4O4dpoSjYQ33ejDS71YlOngXP8OI_z7N4NbtFxKyGmd7lZSCzYUEMN2AYzBblXViLAYzhb5ZoRzgIQa_N9NwlrrK7gpoL041treOVIGxUjZoMuV2YcxtxWiZ1t1j.BjeoZ6pXru4GEUWqeCnafq1c3PMexRaxFPcerwt5AcYVks6Vbb5OrEhc6SQvo9y3Ecw1DA9SBruL.Nu.yrjR4qCVapaF3rRQZdjmCODVJWqIhVnwSTbW.34AHpVEPcFvPKIDj7W.DESNnlKG9IYyhlSGKwHbCcv3eGQMmlb0bf9GQK4Ixnu4ii46LA3m6DZ7Gg9aJCipu1qMoMUUQ"
+        "Cookie": "cf_clearance=2KaVo_FPsrgcjJvOk3C_duW24o76u_YEQtBJU6VJ.7U-1791548626-1.2.1.1-Pjn5Bc0Urs.Hr.FKXNIk7lL11XVskh9fsmsmIQ7dJnQiFmZHB3UXtsFfbUE8yge6pidGNO0ILVPMfBx8.UrQ2kl9k0bddzHXSla_6se.jLONtmlqyPzmNZvDCk1N9DGTxUr6Yswo4O4dpoSjYQ33ejDS71YlOngXP8OI_z7N4NbtFxKyGmd7lZSCzYUEMN2AYzBblXViLAYzhb5ZoRzgIQa_N9NwlrrK7gpoL041treOVIGxUjZoMuV2YcxtxWiZ1t1j.BjeoZ6pXru4GEUWqeCnafq1c3PMexRaxFPcerwt5AcYVks6Vbb5OrEhc6SQvo9y3Ecw1DA9SBruL.Nu.yrjR4qCVapaF3rRQZdjmCODVJWqIhVnwSTbW.34AHpVEPcFvPKIDj7W.DESNnlKG9IYyhlSGKwHbCcv3eGQMmlb0bf9GQK4Ixnu4ii46LA3m6DZ7Gg9aJCipu1qMoMUUQ",
         "x-craft-session": "901a4d60-dfa6-4625-8a46-f6c0eabe9e65"
       },
     });
