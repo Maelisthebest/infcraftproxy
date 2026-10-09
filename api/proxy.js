@@ -1,3 +1,5 @@
+import crypto from 'node:crypto';
+
 export default async function handler(req, res) {
   // CORS-Header setzen, damit GitHub Pages zugreifen darf
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -29,7 +31,17 @@ export default async function handler(req, res) {
       },
     });
 
-    const data = await apiResponse.json();
+    const responseText = await apiResponse.text();
+
+    // Prüfen, ob Cloudflare uns ausgesperrt hat (HTML-Antwort statt JSON)
+    if (responseText.trim().startsWith("<!DOCTYPE")) {
+      return res.status(403).json({ 
+        error: "Cloudflare Blockade", 
+        details: "Der Server wurde von Cloudflare als Bot erkannt (HTML-Antwort erhalten)." 
+      });
+    }
+
+    const data = JSON.parse(responseText);
     return res.status(apiResponse.status).json(data);
 
   } catch (err) {
